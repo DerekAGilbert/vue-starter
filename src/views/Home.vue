@@ -1,5 +1,5 @@
 <template>
-  <div class="home">
+  <div class="home-page-wrapper">
     <img src="../assets/logo.png">
     <HelloWorld msg="Welcome to Your Vue.js App"/>
   </div>
@@ -16,3 +16,9 @@ export default {
   }
 }
 </script>
+
+<style lang="css">
+.home-page-wrapper {
+  
+}
+</style>
