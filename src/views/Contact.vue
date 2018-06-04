@@ -1,5 +1,6 @@
 <template lang="html">
   <div class="contact-page-wrapper">
+    <h1>Contact Page</h1>
 
   </div>
 </template>

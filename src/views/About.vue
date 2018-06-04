@@ -1,6 +1,6 @@
-<template>
+<template lang="html">
   <div class="about-page-wrapper">
-    <h1>This is an about page</h1>
+    <h1>About Page</h1>
   </div>
 </template>
 
@@ -11,6 +11,6 @@ export default {
 
 <style lang="css">
 .about-page-wrapper {
-  
+
 }
 </style>

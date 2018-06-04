@@ -1,14 +1,27 @@
 <template>
-  <div id="app">
-    <div id="nav">
-      <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link> |
-      <router-link to="/portfolio">Portfolio</router-link> |
+  <div class="app-scoped">
+    <nav id="nav">
+      <router-link to="/about">Home</router-link>
+      <router-link to="/about">About</router-link>
+      <router-link to="/portfolio">Portfolio</router-link>
       <router-link to="/contact">Contact</router-link>
+    </nav>
+    <div class="">
+      <router-view/>
     </div>
-    <router-view/>
   </div>
 </template>
 
-<style>
+<style scoped lang="scss">
+.app-scoped {
+  #nav {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    a {
+      margin: 10px 5px;
+    }
+  }
+}
+
 </style>
